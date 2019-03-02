@@ -33,4 +33,4 @@ def draw_arc(center,radius,startangle,endangle,color,thickness,text,fontcolor):
 
 draw_arc((800,400),200,0,360,(255,255,255),5,'500',(255,255,255)) #anticlockwise negative
 #draw_arc((800,400),100,0,360,(255,255,255),5,'50') #anticlockwise negative
-cv2.imwrite('gotdamnit.jpg',dashboard)
+cv2.imwrite('gotdamnit.jpg',img)
